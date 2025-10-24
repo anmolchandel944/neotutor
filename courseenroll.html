@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses - NeoTutor</title>
+  <link rel="stylesheet" href="courseenroll.css">
+</head>
+<body>
+
+ 
+<section class="courses-hero">
+  <h1>Explore Our <span class="highlight">Courses</span></h1>
+  <p>Learn new skills from expert tutors and level up your knowledge.</p>
+</section>
+
+<section class="courses-section">
+  <div class="courses-grid" id="coursesGrid">
+    <!-- Course Card 1 -->
+    <div class="course-card">
+      <div class="course-img">
+        <img src="course1.jpg" alt="Course 1">
+      </div>
+      <h3>JavaScript Essentials</h3>
+      <p>Learn the fundamentals of JavaScript and web development.</p>
+      <button class="btn2" onclick="enrollCourse('JavaScript Essentials')">Enroll Now</button>
+    </div>
+
+    <!-- Course Card 2 -->
+    <div class="course-card">
+      <div class="course-img">
+        <img src="course2.jpg" alt="Course 2">
+      </div>
+      <h3>Python Programming</h3>
+      <p>Master Python for data analysis, AI, and web apps.</p>
+      <button class="btn2" onclick="enrollCourse('Python Programming')">Enroll Now</button>
+    </div>
+
+    <!-- Course Card 3 -->
+    <div class="course-card">
+      <div class="course-img">
+        <img src="course3.jpg" alt="Course 3">
+      </div>
+      <h3>Graphic Design</h3>
+      <p>Design stunning visuals and graphics like a pro.</p>
+      <button class="btn2" onclick="enrollCourse('Graphic Design')">Enroll Now</button>
+    </div>
+
+    <!-- Course Card 4 -->
+    <div class="course-card">
+      <div class="course-img">
+        <img src="course4.jpg" alt="Course 4">
+      </div>
+      <h3>Music Production</h3>
+      <p>Learn to create, mix, and produce music tracks.</p>
+      <button class="btn2" onclick="enrollCourse('Music Production')">Enroll Now</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 NeoTutor | Built with ❤️ by Anmol Chandel</p>
+</footer>
+
+<script > 
+// coursres enroll now page code here 
+function enrollCourse(courseName) {
+  alert(`You have enrolled in ${courseName}!\nOur team will contact you soon.`);
+}
+
+</script>
+</body>
+</html>
