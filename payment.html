@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment - NeoTutor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<section class="payment-section">
+
+ <h1 class="heading">
+        Pay Now to <span class="highlight">Hire</span> the Best Mentor for Your <span class="highlight green">Journey</span>
+      </h1>
+
+  <div class="payment-card">
+    <h2>Secure Payment</h2>
+    <p>Complete your payment securely with NeoTutor.</p>
+
+    <form id="paymentForm">
+      <div class="form-group">
+        <label for="studentName">Student Name</label>
+        <input type="text" id="studentName" placeholder="Enter your name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="mentorId">Mentor ID</label>
+        <input type="text" id="mentorId" placeholder="Enter mentor ID (e.g., M101)" required>
+      </div>
+
+      <div class="form-group">
+        <label for="upi">UPI ID</label>
+        <input type="text" id="upi" placeholder="Enter your UPI ID" required>
+      </div>
+
+      <div class="form-group">
+        <label for="amount">Amount (₹)</label>
+        <input type="number" id="amount" placeholder="Enter payment amount" required>
+      </div>
+
+      <button type="submit" class="btn2">Pay Now</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 NeoTutor | Built with ❤️ by Anmol Chandel</p>
+</footer>
+
+<!-- jsPDF library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
