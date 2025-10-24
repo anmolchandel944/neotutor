@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0" />
+  <title>Enroll Now - NeoTutor</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="enrollnow.css">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="enroll-hero">
+    <h1><span class="highlight">Enroll Now</span></h1>
+    <p>Join NeoTutor today and start learning with expert mentors from the comfort of your home!</p>
+  </section>
+
+  <!-- Enrollment Form -->
+  <section class="enroll-section">
+    <div class="enroll-container">
+      <div class="enroll-card">
+        <h2>Fill Your Details</h2>
+        <form id="enrollForm">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your full name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number" required>
+          </div>
+         
+          <div class="form-group">
+            <label for="course">Select Course</label>
+            <select id="course" required>
+              <option value="">--Select a course--</option>
+              <option value="math">Mathematics</option>
+              <option value="science">Science</option>
+              <option value="english">English</option>
+              <option value="programming">Programming</option>
+            </select>
+          </div> 
+          <div class="form-group">
+           <label for="mentorId">Enter Mentor ID:</label>
+            <input type="text" id="mentorId" name="mentorId" placeholder="e.g., M101" required>
+          </div>
+          <div class="form-group">
+           <label for="address">Address</label>
+           <textarea id="address" placeholder="Enter your address" required></textarea>
+          </div>
+          <button type="submit" class="btn2">Enroll Now</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 NeoTutor | Built with ❤️ by Anmol Chandel</p>
+  </footer>
+
+  <script >  
+// Form Submission
+const enrollForm = document.getElementById('enrollForm');
+enrollForm.addEventListener('submit', (e) => {
+  e.preventDefault();
+  alert("🎉 Thank you for enrolling! We will contact you soon.");
+  enrollForm.reset();
+});
+</script>
+</body>
+</html>
