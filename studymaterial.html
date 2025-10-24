@@ -1,0 +1,53 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0" />
+  <title>Study Material</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="study-material-hero">
+    <h1><span class="highlight">Study Material</span></h1>
+    <p>Search, filter, and download materials for your learning journey</p>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search by title, category...">
+      <button id="searchBtn"><i class="ri-search-line"></i></button>
+    </div>
+
+    <!-- Categories -->
+    <div class="categories-list">
+      <button class="category-btn" data-category="All">All</button>
+      <button class="category-btn" data-category="12th Grade">12th Grade</button>
+      <button class="category-btn" data-category="11th Grade">11th Grade</button>
+      <button class="category-btn" data-category="10th Grade">10th Grade</button>
+      <button class="category-btn" data-category="Music">Music</button>
+      <button class="category-btn" data-category="Language">Language</button>
+      <button class="category-btn" data-category="Programming">Programming</button>
+    </div>
+  </section>
+
+  <!-- Results -->
+  <section class="study-results">
+    <h2>Available Materials</h2>
+    <div class="results-grid" id="resultsGrid">
+      <!-- Cards will load here dynamically -->
+    </div>
+    <button id="loadMoreBtn" style="margin-top:20px; padding:12px 20px; background:#133e2a; color:#fff; border:none; border-radius:8px; cursor:pointer;">Load More</button>
+  </section>
+
+
+ <footer>
+    <p>© 2025 NeoTutor | Built with ❤️ by Anmol Chandel</p>
+  </footer>
+
+ 
+
+
+
+ <script src="study.js"></script>
+</body>
+</html>
