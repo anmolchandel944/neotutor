@@ -1,13 +1,13 @@
 
     const materials = [
-      { title: "Physics Notes - Class 12", category: "12th Grade", desc: "Complete NCERT + Important Questions", file: "physics12.pdf", thumb: "img/NCRT.png" },
-      { title: "Maths Formula Sheet", category: "11th Grade", desc: "Quick revision formulas", file: "maths11.pdf", thumb: "img/FORMULAS.png" },
-      { title: "History Notes - Class 10", category: "10th Grade", desc: "Detailed chapter-wise notes", file: "history10.pdf", thumb: "img/NOTES.png" },
-      { title: "Guitar Basics", category: "Music", desc: "Beginner-friendly music guide", file: "guitar.pdf", thumb: "img/MUSIC.png" },
-      { title: "Spoken English Guide", category: "Language", desc: "Improve English speaking skills", file: "english.pdf", thumb: "img/SPEAKING.png" },
-      { title: "Java Programming", category: "Programming", desc: "Learn Java with examples", file: "java.pdf", thumb: "img/java.png" },
-      { title: "Python Basics", category: "Programming", desc: "Easy Python tutorial", file: "python.pdf", thumb: "img/python.png" },
-      { title: "Chemistry Notes - Class 12", category: "12th Grade", desc: "Organic + Inorganic explained", file: "chemistry12.pdf", thumb: "img/ORGANIC INORGANIC.png" }
+      { title: "Physics Notes - Class 12", category: "12th Grade", desc: "Complete NCERT + Important Questions", file: "physics12.pdf", thumb: "NCRT.png" },
+      { title: "Maths Formula Sheet", category: "11th Grade", desc: "Quick revision formulas", file: "maths11.pdf", thumb: "FORMULAS.png" },
+      { title: "History Notes - Class 10", category: "10th Grade", desc: "Detailed chapter-wise notes", file: "history10.pdf", thumb: "NOTES.png" },
+      { title: "Guitar Basics", category: "Music", desc: "Beginner-friendly music guide", file: "guitar.pdf", thumb: "MUSIC.png" },
+      { title: "Spoken English Guide", category: "Language", desc: "Improve English speaking skills", file: "english.pdf", thumb: "SPEAKING.png" },
+      { title: "Java Programming", category: "Programming", desc: "Learn Java with examples", file: "java.pdf", thumb: "java.png" },
+      { title: "Python Basics", category: "Programming", desc: "Easy Python tutorial", file: "python.pdf", thumb: "python.png" },
+      { title: "Chemistry Notes - Class 12", category: "12th Grade", desc: "Organic + Inorganic explained", file: "chemistry12.pdf", thumb: "ORGANIC INORGANIC.png" }
     ];
 
     const resultsGrid = document.getElementById("resultsGrid");
@@ -67,4 +67,5 @@
 
     // Initial load
     renderMaterials();
+
   
